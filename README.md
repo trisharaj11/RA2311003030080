@@ -221,4 +221,4 @@ This project strictly follows all evaluation requirements:
 
 ---
 
-Thank you for reviewing this submission!
+
