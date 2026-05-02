@@ -169,7 +169,7 @@ Each screenshot includes:
 
 ### Notification Priority API
 
-![Notifications](screenshots/notifications_api.png)
+![Notifications](screenshots/notifications_priority.png)
 
 ---
 
