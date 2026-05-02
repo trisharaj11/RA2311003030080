@@ -1,6 +1,6 @@
 # 🚀 Backend Evaluation Submission
 
-This repository contains my submission for the Backend Track of the Campus Hiring Evaluation. The goal of this project was to build clean, efficient, and scalable backend services while following real-world engineering practices such as modular design, proper logging, API handling, and optimized algorithms.
+This repository contains my submission for the Backend Track of the Campus Hiring Evaluation. The project focuses on building clean, efficient, and scalable backend services while following real-world practices such as modular design, structured logging, secure API handling, and optimized algorithms.
 
 ---
 
@@ -15,7 +15,7 @@ RA2311003030080/
 │
 ├── screenshots/                    # API testing screenshots
 │   ├── schedule_api.png
-│   ├── notifications_api.png
+│   ├── notification_priority.png
 │
 ├── auth.js                         # Authentication script
 ├── test_log.js                     # Logging validation utility
@@ -132,7 +132,7 @@ Returns the **top 10 most important notifications** based on priority and recenc
 
 * Uses a **Min-Heap (size 10)**
 * Time Complexity: `O(N log K)`
-* Efficient for large datasets (avoids full sorting)
+* Efficient for large datasets
 
 ---
 
@@ -169,18 +169,7 @@ Each screenshot includes:
 
 ### Notification Priority API
 
-![Notifications](screenshots/notifications_priority.png)
-
----
-
-## 📌 Key Highlights
-
-* Clean and modular architecture
-* Efficient DSA implementation (Knapsack + Heap)
-* Centralized authentication handling
-* Production-style logging middleware
-* No hardcoded data
-* Fully aligned with evaluation constraints
+![Notifications](screenshots/notification_priority.png)
 
 ---
 
@@ -190,14 +179,14 @@ From the root directory:
 
 ### Start Vehicle Scheduler
 
-```
-npm run start:scheduler
+```bash
+node vehicle_maintenance_scheduler/index.js
 ```
 
 ### Start Notification API
 
-```
-npm run start:notifications
+```bash
+node notification_app_be/index.js
 ```
 
 ---
@@ -210,7 +199,18 @@ npm run start:notifications
 
 ---
 
-## Submission Ready
+## 📌 Key Highlights
+
+* Clean modular architecture
+* Efficient DSA implementation (Knapsack + Heap)
+* Centralized authentication handling
+* Production-style logging middleware
+* No hardcoded data
+* Fully aligned with evaluation constraints
+
+---
+
+## ✅ Submission Ready
 
 This project strictly follows all evaluation requirements:
 
@@ -221,4 +221,4 @@ This project strictly follows all evaluation requirements:
 
 ---
 
-Thank you for reviewing my submission!
+Thank you for reviewing this submission!
